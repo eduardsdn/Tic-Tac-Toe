@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+
+#game-title{
+    text-align: center;
+}
+
+.player-selection {
+    margin-top: 50px;
+    display: flex;
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+
+
+.player-forms{
+    display: flex;
+    gap:30px;
+}
+
+.playerX, .playerO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
